@@ -6,20 +6,58 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h2> Loan Application Form </h2>
 
-    <!-- Loan Application Form -->
-    <form>
-      <!-- Full Nmae -->
-      <lable> Full Name:</lable><br>
-      <input type="text" required><br><br>
+    <!-- Navigation Bar -->
+    <nav>
+      <h2> Shark Loan Connect </h2>
+      <ul>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="about.html"> About </a></li>
+        <li><a href="loans.html"> Loans </a></li>
+        <li><a href="apply.html"> Apply </a></li>
+        <li><a href="connect.html"> Connect </a></li>
+      </ul>
+    </nav>
+
+    <!--Loan Application Form Section -->
+    <section>
+      <h1> Loan Application Form </h1>
+      <p> Please fill in all required fields to apply for a student loan. </p>
+
+      <!-- Form starts here -->
+      <form>
+        
+         <!-- Full Name -->
+      <lable for="name"> Full Name:</lable><br>
+      <input type="text" id="name" name="name" placeholder="Enter full name" required><br><br>
       <!-- Email -->
-      <label> Email:</label><br>
-      <input type="email" required><br><br>
-      <!-- Amount -->
-      <lable> Loan Amount:</lable><br>
-      <input type="number" required><br><br>
-      <!-- Submit -->
+      <label for="email"> Email Address:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+      <!-- Phone -->
+        <lable for="phone"> Phone Number:</lable><br>
+        <input type="tel" id="phone" name="phone" placeholder="e.g. 71000000" required><br><br>
+      <!-- Loan Type -->
+        <lable for="loan"> Select Loan Type:</lable><br>
+        <select id="loan" name="loan" required>
+          <option value="">--Choose Loan--</option>
+          <option value="undergraduate"> Undergraduate Loan</option>
+          <option value="postgraduate"> Postgraduate Loan</option>
+          <option value="shortterm"> Short-Term Loan</option>
+        </select><br><br>
+      <!-- Loan Amount -->
+      <lable for="amount"> Loan Amount (BWP):</lable><br>
+      <input type="number" id="amount" name="amount" min="500" placeholder=" Enter amount" required><br><br>
+      <!-- Message -->
+        <lable for="message"> Additional Information:</lable><br>
+        <textarea id="message" name="message" placeholder=" Enter any extra details such as Student ID"></textarea><br><br>
+      <!-- Submit Button -->
       <button type="submit"> Submit Application </button>
-    </form>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Shark Loan Connect </p>
+    </footer>
   </body>
+</html>
