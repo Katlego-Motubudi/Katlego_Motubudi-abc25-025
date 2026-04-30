@@ -1,17 +1,56 @@
 <!DOCTYPE html>
-<html>
-  <h2> Contact Us </h2>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> Shark Loan Connect - Contact </title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav>
+      <h2> Shark Loan Connect </h2>
+      <ul>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="about.html"> About </a></li>
+        <li><a href="loans.html"> Loans </a></li>
+        <li><a href="apply.html"> Apply </a></li>
+        <li><a href="contact.html"> Contact </a></li>
+      </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section>
+      <h1> Contact Us </h1>
+      <p> If you have any questions or feedback, please send us a message below. </p>
+
+      <!-- Contact Form -->
+      <form>
+
+        <!--Name -->
+        <lable for="name"> Full Name:</lable><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email -->
+        <lable for="email"> Email Address:</lable><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Subject -->
+        <lable for="subject"> Subject:</lable><br>
+        <input type="text" id="subject" name="subject" placeholder="Enter subject" required><br><br>
+
+        <!-- Message -->
+        <lable for="message"> Message:</lable><br>
+        <textarea type="message" id="message" name="name" placeholder="Write your message here..." required></textarea><br><br>
+
+        <!-- Submit -->
+        <button type="submit"> Send Message </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Shark Loan Connect </p>
+    </footer>
+  </body>
 </html>
-
-<form>
-  <lable> Name:</lable><br>
-  <input type="text" required><br><br>
-
-  <lable> Email:</lable><br>
-  <input type="email" required><br><br>
-
-  <lable> Message:</lable><br>
-  <textarea required></textarea><br><br>
-
-  <button type="submit"> Send</button>
-</form>
