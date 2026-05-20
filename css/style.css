@@ -1,86 +1,101 @@
-body{
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+/* ===== GENERAL STYLING ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-nav a:hover{
-  background-color: #2c3e50;
-  color: white;
-  transition: 0.3s;
+/* ===== NAVIGATION BAR ===== */
+nav {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px;
 }
 
-nav h2{
-  display: Inline;
-  margin: 0;
+nav h2 {
+    display: inline;
+    margin: 0;
 }
 
-nav ul li{
-  display: inline;
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
     margin-left: 15px;
 }
 
-nav ul li a{
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-nav ul li a: hover{
-  text-decoration: underline;
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
-section{
-  padding: 20px;
-  background-color: white;
-  margin: 20px; 5px;
-  border-radius:
+/* ===== SECTION (CONTENT AREA) ===== */
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
 }
 
+/* ===== HEADINGS ===== */
 h1, h2 {
-  color:#2c3e50;
+    color: #2c3e50;
 }
 
+/* ===== BUTTONS ===== */
 button {
-  background-color: #3498db;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
 }
 
-button:hover{
-  background-color: #2980b9;
+button:hover {
+    background-color: #2980b9;
 }
 
+/* ===== LINKS AS BUTTONS ===== */
 a {
-  color: #3498db;
+    color: #3498db;
 }
 
-form{
-  max-width: 500px;
+/* ===== FORMS ===== */
+form {
+    max-width: 500px;
 }
 
 input, select, textarea {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-img{
-  margin-top: 10px;
-  border-radius: 5px;
+/* ===== IMAGES ===== */
+img {
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
-footer{
-  background-color: #2c3e50;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
+/* ===== FOOTER ===== */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 
